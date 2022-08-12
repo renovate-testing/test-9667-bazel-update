@@ -1,8 +1,7 @@
 container_pull(
-    name="hasura",
-    registry="index.docker.io",
-    repository="hasura/graphql-engine",
-    # v1.0.0-alpha31.cli-migrations 11/28
-    digest="sha256:a4e8d8c444ca04fe706649e82263c9f4c2a4229bc30d2a64561b5e1d20cc8548",
-    tag="v1.0.0-alpha31.cli-migrations"
+    name = "py3_image_base",
+    digest = "sha256:d5a717649fd93ea5b9c430d7f84e4c37ba219eb53bd73ed1d4a5a98e9edd84a7",
+    registry = "gcr.io",
+    repository = "distroless/python3-debian10",
+    tag = "latest",
 )
