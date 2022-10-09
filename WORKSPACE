@@ -65,9 +65,9 @@ http_archive(
 
 http_archive(
     name = "rules_nodejs",
-    sha256 = "5aef09ed3279aa01d5c928e3beb248f9ad32dde6aafe6373a8c994c3ce643064",
+    sha256 = "33e309ba281fc73626a356a839bf5e5279360e7a2caea419c45c8017b5b3f7e2",
     urls = [
-      "https://github.com/bazelbuild/rules_nodejs/releases/download/5.5.3/rules_nodejs-core-5.5.3.tar.gz"
+      "https://github.com/bazelbuild/rules_nodejs/releases/download/5.7.0/rules_nodejs-core-5.7.0.tar.gz"
     ],
 )
 
