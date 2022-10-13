@@ -1,6 +1,8 @@
 {
-  "hostRules": [{
-    "matchHost": "api.github.com",
-    "throttleRequestLimit": 1
-  }]
+  "hostRules": [
+    {
+      "matchHost": "api.github.com",
+      "throttleRequestLimit": 2
+    }
+  ]
 }
