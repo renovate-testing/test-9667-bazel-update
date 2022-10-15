@@ -2,7 +2,7 @@
   "hostRules": [
     {
       "matchHost": "api.github.com",
-      "maxRequestsPerSecond": 1
+      "maxRequestsPerSecond": 2
     }
   ]
 }
