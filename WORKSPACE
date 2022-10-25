@@ -177,9 +177,9 @@ http_archive(
 
 http_archive(
     name = "com_github_nelhage_rules_boost",
-    url = "https://github.com/nelhage/rules_boost/archive/135d46b4c9423ee7d494c78a21ff621bc73c12f3.tar.gz",
-    sha256 = "3651f5dda0f7296e4cecafacc7f9d1f274be0fd64e30bebd74e28ffba28fe77f",
-    strip_prefix = "rules_boost-135d46b4c9423ee7d494c78a21ff621bc73c12f3",
+    url = "https://github.com/nelhage/rules_boost/archive/ff8422b55c30e88a87abe119e412b916fea021ce.tar.gz",
+    sha256 = "da210b5404b6956cf09335ff42a054cb9080da739ea4bb5d115b99a43fce228c",
+    strip_prefix = "rules_boost-ff8422b55c30e88a87abe119e412b916fea021ce",
 )
 load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
 boost_deps()
